@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Randomizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <button onclick="roll(this)" data-dice="4">d4</button>
+      <button onclick="roll(this)" data-dice="6">d6</button>
+      <button onclick="roll(this)" data-dice="8">d8</button>
+      <button onclick="roll(this)" data-dice="10">d10</button>
+      <button onclick="roll(this)" data-dice="12">d12</button>
+      <button onclick="roll(this)" data-dice="20">d20</button>
+    </div>
+    <hr />
+    <div>
+      <button onclick="coinflip(this)">Coinflip</button>
+    </div>
+    <hr />
+    <h3 id="result"></h3>
+    <script src="script.js"></script>
+  </body>
+</html>
